@@ -5,7 +5,7 @@ const selectMenu = document.querySelectorAll("select");
 const setAlarmBtn = document.querySelector("#btn-setAlarm");
 let alarmCount = 0;
 let alarmTime;
-let ring = new Audio("/ASSETS/alarm.mp3");
+let ring = new Audio("ASSETS/alarm.mp3");
 let vl0, vl1, vl2;
 
 // Script for Time and Date
